@@ -45,7 +45,9 @@ h5 {
 
 nav {
     color: #777;
-    
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 nav ul {
@@ -136,6 +138,10 @@ hr {
 footer {
     margin-top: 2em;
     text-align: center;
+}
+
+.footer {
+    background-color: #eee;
 }
 
 .copyright {
